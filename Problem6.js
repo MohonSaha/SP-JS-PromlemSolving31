@@ -1,10 +1,10 @@
-// Find out the vowels of a sentence 
+// Find out the number of vowels of a sentence 
 
 const vowels = ["a", "e", "i", "o", "u", "A", "E","I", "O", "U"];
 function countVowels (sentence){
     let count = 0;
     const letters = Array.from(sentence);
-    letters.forEach( function(value) {
+    letters.forEach(function(value) {
         if(vowels.includes(value)){
             count++;
         }       
